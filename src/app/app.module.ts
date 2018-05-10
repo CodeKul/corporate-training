@@ -5,13 +5,15 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { MyOneComponent } from './my-one/my-one.component';
 import { SimpleComponent } from './simple/simple.component';
+import { VerySimpleComponent } from './simple/very-simple.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MyOneComponent,
-    SimpleComponent
+    SimpleComponent,
+    VerySimpleComponent
   ],
   imports: [
     BrowserModule
