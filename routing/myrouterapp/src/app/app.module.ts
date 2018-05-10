@@ -1,6 +1,7 @@
 import { AdminModule } from './admin/admin.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule} from '@angular/common/http'
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -16,7 +17,9 @@ import { LoginModule } from './login/login.module';
     BrowserModule,
     AppRoutingModule,
     LoginModule,
-    AdminModule
+    AdminModule,
+
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

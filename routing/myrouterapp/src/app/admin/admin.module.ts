@@ -1,3 +1,4 @@
+import { JokeService } from './../joke.service';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AdminComponent } from './admin.component';
@@ -6,6 +7,7 @@ import { AdminComponent } from './admin.component';
   imports: [
     CommonModule
   ],
-  declarations: [AdminComponent]
+  declarations: [AdminComponent],
+  providers : [JokeService]
 })
 export class AdminModule { }
