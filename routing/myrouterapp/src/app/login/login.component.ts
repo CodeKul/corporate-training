@@ -8,6 +8,13 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
+  isToggled = false;
+  mobiles = [
+    'Htc',
+    'Moto',
+    'Samsung',
+    'Apple'
+  ]
   constructor(
     private router: Router
   ) { }
