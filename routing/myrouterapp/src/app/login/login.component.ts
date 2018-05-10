@@ -18,7 +18,7 @@ export class LoginComponent implements OnInit {
   onLogin(dt: {}) {
     console.log(dt)
     console.log(`Login performed`)
-    if(dt.value.email == 'codekul')
+    if(dt['value']['email'] == 'codekul')
      this.router.navigate(['admin'])
   }
 }
